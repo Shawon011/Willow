@@ -1,0 +1,655 @@
+/* Start nav bar responsive */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: flex;
+    }
+    .navigation .menu {
+        display: none;
+    }
+    .nav-right {
+        margin-right: 0;
+    }
+    .navigate-wrap {
+        position: relative;
+    }
+    ul.navigationi-nav-item {
+        display: block;
+    }
+    .navigation .menu {
+        position: absolute;
+        left: 0;
+        top: 60px;
+        padding: 20px 0;
+        background-color: #fff;
+        width: 100%;
+        box-shadow: 0 19px 20px 0 rgb(0 0 0 / 9%);
+    }
+    a.w-nav-item {
+        border-style: none;
+        margin: 2px 0;
+    }
+    a.w-nav-item:hover {
+        border-style: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .navigation.w-nav {
+        padding: 20px 20px;
+    }
+    .navigation .link-mail {
+        display: none;
+    }
+}
+/* End nav bar responsive */
+
+
+
+
+/* Start Hero Section resopnsive  */
+@media (max-width: 768px) {
+    .hero-cat-block {
+        display: none;
+    }
+    .hero-detail {
+        margin: 60px 0;
+    }
+    .hero-img {
+        display: flex;
+        padding-top: 0;
+        margin: auto;
+    }
+    .hero-card {
+        left: -20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .hero-section {
+        padding: 0;
+    }
+    .hero-section .container {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    h1.hero-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .hero-card {
+        margin-left: 30px;
+    }
+}
+/* End Hero Section resopnsive  */
+
+
+/* Start customer section responsive */
+.customer-section .col-lg-2.col-md-4 {
+    padding: 0;
+}
+@media (max-width: 425px) {
+    .customer-section .col-lg-2.col-md-4 {
+        width: 50%;
+        padding-left: 27px;
+    } 
+    .customer-section .customer img {
+        width: 149px;
+    }
+}
+@media (max-width: 320px) {
+    .customer-section .customer img {
+        width: 129px;
+        height: 60px;
+    }
+    .customer-section .col-lg-2.col-md-4 {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+/* End customer section responsive */ 
+
+
+
+/* Start Service section responsive */
+@media (max-width: 1024px) {
+    .col-lg-5.service-card {
+        margin: 0 38px;
+    }
+}
+@media (max-width: 768px) {
+    img.squiggle-icon {
+        display: none;
+    }
+    .col-lg-5.service-card {
+        margin: 0 28px;
+    }
+    .service-section .service-title-wrapper {
+         max-width: 504px;
+         margin-left: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    .service-title-wrapper {
+        margin-left: 20px;
+    }
+    .col-lg-5.service-card {
+        margin: 22px 28px;
+    }
+    .row.service-2 {
+        margin-top: 0;
+    }
+    .service-section .service-title-wrapper {
+        width: auto;
+    }
+    .service-section .service-title-wrapper {
+        margin-left: 30px;
+    }
+}
+/* End Service section responsive */
+
+
+
+/* Start Project section responsive */
+@media (max-width: 1024px) {
+    .col-lg-6.collection-item {
+        max-width: 444px;
+    }
+    .col-lg-6.collection-item.item-left {
+        margin: 0 21px;
+    }
+    span.c-text-b {
+        font-size: 18px;
+    }
+    a.learn-more-btn {
+        display: block;
+    }
+    .projects-section img.star-img {
+        margin-top: 70px;
+    }
+    .row.project-layout-collection.layout-2 {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    h2.heading {
+        font-size: 42px;
+        letter-spacing: -2.03px;
+    }
+    img.image-cover {
+        width: 100%;
+    }
+    .collection-content {
+        max-width: 340px;
+        min-height: 410px;
+    }
+    .opacity-color {
+        max-width: 340px;
+        min-height: 410px;
+    }
+    img.star-img {
+        position: absolute;
+        top: 75px;
+    }
+    .collction-tile-pera-btn {
+        position: absolute;
+        left: 20px;
+        bottom: 55px;
+    }
+    span.c-text-b {
+        line-height: 25px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    a.projects-content-button {
+        margin-left: 0;
+    }
+    .opacity-color {
+        max-width: 100%;
+    }
+    .col-lg-6.collection-item.item-left {
+        margin: 20px 0;
+    }
+    .row.project-layout-collection.layout-2 {
+        margin-top: 0px;
+    }
+    .projects-section img.star-img {
+        margin-top: -100px;
+    }
+}
+@media (max-width: 375px) {
+    .projects-section img.star-img {
+        margin-top: -10px;
+    }
+}
+/* End Project section responsive */
+
+
+
+
+/* Start process section responsive */
+@media (max-width: 768px) {
+    section.process-section {
+        margin-top: 160px;
+    }
+    .process-section .row.title {
+        position: absolute;
+        top: -20px;
+        left: 55px;
+    }
+}
+@media (max-width: 425px) {
+    .process-section .row.title {
+        left: 28px;
+    }
+    .process-section .row.title {
+        width: auto;
+    }
+}
+@media (max-width: 320px) {
+    .process-section .row.title {
+        position: initial;
+    }
+}
+/* ENd process section responsive */
+
+
+
+
+/* Start resopnsive Awards section */
+@media (max-width: 1024px) {
+    .award-wrap {
+        margin: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .award-layout {
+        display: block;
+    }
+    .award-wrap {
+        margin: 20px;
+    }
+}
+/* End resopnsive Awards section */
+
+
+/* Sart responsive testimonial section */
+@media (max-width: 768px) {
+    .testimonial-title.service-title-wrapper {
+        margin-left: 20px;
+    }
+    img.quote {
+        margin-bottom: 5px;
+    }
+    p.t-pera {
+        margin-bottom: 10px;
+    }
+    strong.bold-text {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .testimonial-section img.star-icon {
+        top: auto;
+        left: 52px;
+    }
+}
+@media (max-width: 425px) {
+    .testimonial-section .item {
+        display: block;
+    }
+    .col-lg-6.slider-content {
+        margin-top: 30px;
+    }
+    .owl-theme .owl-nav {
+        margin-top: -15px !important;
+    }
+}
+/* End responsive testimonial section */
+
+
+
+/* Start responsive Cts sectioni */
+.cta-2 {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+}
+@media (max-width: 425px) {
+    .cat-wrapper {
+        padding: 60px 40px;
+    }
+    h2.cta-title {
+        font-size: 48px;
+    }
+}
+@media (max-width: 375px) {
+    .cat-wrapper {
+        padding: 60px 28px;
+    }
+}
+@media (max-width: 320px) {
+    .cat-wrapper {
+        padding: 60px 2px;
+    }
+    h2.cta-title {
+        font-size: 42px;
+    }
+}
+/* End responsive Cts sectioni */
+
+
+/* Start Blog section responsive  */
+@media (max-width: 768px) {
+    .col-lg-4.col-md-6.w-dyn-item {
+        margin: 15px 0;
+    }
+}
+@media (max-width: 425px) {
+    .blog-section a.projects-content-button {
+        margin-top: 50px;
+    }
+}
+/* End Blog section responsive  */
+
+
+/* Start footer section responsive */
+@media (max-width: 1024px) {
+    .footer-left {
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .footer-section ul.navigationi-nav-item {
+        display: flex;
+    }
+    .footer-left {
+        display: flex;
+        align-items: center;
+    }
+    .footer-section a.w-nav-item {
+        border-style: solid;
+    }
+    .footer-section a.w-nav-item:hover {
+        border-style: solid;
+    }
+}
+@media (max-width: 425px) {
+    .footer-wrapper {
+        display: block;
+    }
+    .footer-left {
+        justify-content: center;
+    }
+}
+@media (max-width: 425px) {
+    .footer-section ul.navigationi-nav-item {
+        display: block;
+    }
+    .footer-section li {
+        display: inline-block;
+        margin: 6px 0;
+    }
+    .footer-section nav.navigationi-item {
+        text-align: center;
+    }
+}
+/* End footer section responsive */
+
+
+/* ===========Home Page responsive End============== */
+
+
+
+
+
+/* ==============Company Page responsive Start============== */
+
+/* Company hero section responsive start */
+@media (max-width: 768px) {
+    .company-hero-title {
+        max-width: 90%;
+    }
+}
+@media (max-width: 425px) {
+    .company-hero-title {
+        max-width: 100%;
+    }
+    h3.sub-hading {
+        text-align: start;
+    }
+    .company-hero-section h2.heading {
+        font-size: 42px;
+        line-height: 52px;
+        text-align: start;
+    }
+    .company-hero-section img.star-icon {
+        top: 6px;
+        left: 24px;
+    }
+    .company-hero-section .col-lg-6 {
+        max-width: 100%;
+        margin: 15px 0;
+    }
+}
+/* Company hero section responsive End */
+
+
+
+/* Willow team section responsive Start */
+@media (max-width: 768px) {
+    p.team-pera {
+        margin-top: 50px;
+        max-width: 100%;
+    }
+    .willow-team-section .hero-card {
+        left: 55px;
+    }
+    .team-img {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 425px) {
+    img.team-img-company.wow.fadeInLeftBig {
+        width: 100%;
+    }
+    .willow-team-section .hero-card {
+        left: -5px;
+    }
+    p.team-pera {
+        width: 100%;
+    }
+}
+@media (max-width: 420px) {
+    .willow-team-section .hero-card {
+        left: -42px;
+        bottom: 26px;
+    }
+}
+/* Willow team section responsive End */
+
+
+/* Mission section responsive Start */
+@media (max-width: 768px) {
+    .mission-img-wrapper {
+        width: 100%;
+        max-width: 484px;
+        margin: auto;
+    }
+}
+@media (max-width: 425px) {
+    .mis-detail {
+        margin-left: 0px;
+    }
+}
+/* Mission section responsive End */
+
+
+
+/* Clients section responsive Start */
+@media (max-width: 1024px) {
+    .clients-section .clients-title {
+        max-width: 932px;
+    }
+}
+@media (max-width: 768px) {
+    .clients-section .clients-title {
+        max-width: 700px;
+        margin: auto;
+    }
+    .clients-img-content {
+        margin-top: 50px;
+    }
+} 
+@media (max-width: 425px) {
+    .clients-section img.star-icon {
+        left: 26px;
+    }
+    .clients-section h2.heading {
+        max-width: 100%;
+    }
+}
+/* Clients section responsive End */
+
+/* ==============Company Page responsive End============== */
+
+
+
+/* =========Service overview page responsive Start===========  */
+
+/* service hero section responsive start */
+@media (max-width: 425px) {
+    .service-hero-section h2.heading {
+        font-size: 42px;
+        line-height: 50px;
+        margin-bottom: 70px;
+    }
+}
+@media (max-width: 320px) {
+    .service-hero-section h2.heading {
+        font-size: 38px;
+    }
+    .service-hero-section img.star-icon {
+        bottom: 20px;
+        right: -23px;
+    }
+}
+/* service hero section responsive End */
+
+
+/* studio section responsive Start */
+@media (max-width: 425px) {
+    .studio-section .owl-theme .owl-nav {
+        margin-top: 20px  !important;
+    }
+}
+/* studio section responsive Start */
+
+
+
+/* Skill section responsive Start */
+@media (max-width: 768px) {
+    .skill-line-none {
+        display: none;
+    } 
+}
+@media (max-width: 375px) {
+    h1.skill-heading {
+        font-size: 35px;
+        line-height: 30px;
+    }
+}
+/* Skill section responsive Start */
+
+/* ========Service overview page responsive End========= */
+
+
+
+
+/* ===========Design page responsive Start========= */
+
+/* Design hero section responsive start */
+@media (max-width: 768px) {
+    .col-lg-6.hero-design-content {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 425px) {
+    .design-section .service-title-wrapper {
+        margin-left: 0px;
+    }
+    .design-section h2.heading {
+        font-size: 42px;
+        line-height: 60px;
+    }
+}
+/* Design hero section responsive End */
+
+
+/* Digital brander section responsive Start */
+@media (max-width: 768px) {
+    .col-lg-6.digital-brand-img.wow.fadeInLeftBig {
+        display: flex;
+        justify-content: center;
+    }
+    .col-lg-6.digital-brand-text {
+        max-width: 72%;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 425px) {
+    img.digital-img {
+        width: 100%;
+    }
+    .col-lg-6.digital-brand-text {
+        max-width: 95%;
+    }
+    .digital-brand-section .testimonial-title.service-title-wrapper {
+        margin-left: 0px;
+    }
+}
+/* Digital brander section responsive End */
+
+
+/* Valuas section responsive start */
+@media (max-width: 425px) {
+    .valuas-card-wrapper .card-box {
+        margin: 20px 0;
+    } 
+}
+/* Valuas section responsive End */ 
+ 
+/* Design skill section 2 responsive Start */
+@media (max-width: 425px) {
+    .design-skill-section-2 .service-title-wrapper {
+        margin-left: 0px;
+    }
+    .design-skill-section-2 h2.heading {
+        letter-spacing: -3.03px;
+    }
+}
+/* Design skill section 2 responsive End */
+
+
+
+
+
+/* =========Blog page responsive Start========== */
+@media (max-width: 425px) {
+    .blog-heading {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .blog-detail-img {
+        background-position: center;
+        height: 400px;
+    }
+    .blog-detail h1 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+}
